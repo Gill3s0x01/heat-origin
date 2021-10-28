@@ -29,7 +29,7 @@ html {
   z-index: 1;
 }
 
-@media (min-height: 730px) {
+@media (min-height: 731px) {
   .range {
     z-index: 1;
     margin-top: -80px;
@@ -38,6 +38,16 @@ html {
   .smash {
     z-index: 1;
     padding-top: 15px;
+  }
+}
+
+@media (max-height: 728px) {
+  .range {
+    z-index: 0;
+  }
+
+  .smash {
+    display: none;
   }
 }
 @media (min-height: 810px) {
