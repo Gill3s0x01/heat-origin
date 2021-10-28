@@ -2,16 +2,20 @@
   margin: 0;
 }
 
-html,
-body {
+body,
+html {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
 
-  background: url("../images/background.webp.png");
+  background-image: url("background.webp.png");
   background-color: #121214;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
+}
+
+.bg {
+  background-image: url("./images/background.webp");
 }
 
 body {
