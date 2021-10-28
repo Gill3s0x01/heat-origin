@@ -10,11 +10,10 @@
 </p>
 
 <p align="center">
- <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFCD1E&labelColor=FF008E" alt="License">
-  
-  <img src="https://img.shields.io/github/forks/Gilles30/heat-origin?label=forks&message=MIT&color=FFCD1E&labelColor=FF008E" alt="Forks">
-
-  <img src="https://img.shields.io/github/stars/Gilles30/heat-origin?label=stars&message=MIT&color=FFCD1E&labelColor=FF008E" alt="Stars">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Gilles30/heat-origin?color=1db954">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Gilles30/heat-origin?color=1db954">
+  <img alt="Stars" src="https://img.shields.io/github/stars/Gilles30/heat-origin?color=1db954">
+  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/Gilles30/heat-origin?color=1db954">
 </p>
 
 <br>

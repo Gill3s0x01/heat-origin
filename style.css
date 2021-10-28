@@ -21,7 +21,15 @@ html {
   place-items: center;
 }
 
-@media (max-width: 1400px) {
+.range {
+  z-index: 1;
+}
+
+.smash {
+  z-index: 1;
+}
+
+@media (min-height: 730px) {
   .range {
     z-index: 1;
     margin-top: -80px;
@@ -32,98 +40,15 @@ html {
     padding-top: 15px;
   }
 }
-
-@media (max-width: 1800px) {
+@media (min-height: 810px) {
   .range {
     z-index: 1;
-    margin-top: -100px;
+    margin-top: 55px;
   }
 
   .smash {
     z-index: 1;
-    padding-top: 15px;
-  }
-}
-
-@media (max-width: 850px) {
-  .range {
-    z-index: 1;
-    margin-top: -110px;
-  }
-
-  .smash {
-    z-index: 1;
-  }
-  main {
-    background-image: url("../images/badge.png");
-    width: 19rem;
-    height: 29rem;
-    border-radius: 1rem;
-
-    transform-style: preserve-3d;
-    transform: translateZ(0);
-
-    background-color: rgba(126, 126, 126, 0.212);
-    backdrop-filter: saturate(180%) blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.411);
-
-    margin-top: -350px;
-  }
-}
-@media (max-width: 700px) {
-  .range {
-    z-index: 1;
-    margin-top: -20px;
-  }
-
-  .smash {
-    z-index: 1;
-    display: none;
-  }
-  main {
-    background-image: url("../images/badge.png");
-    width: 19rem;
-    height: 29rem;
-    border-radius: 1rem;
-
-    transform-style: preserve-3d;
-    transform: translateZ(0);
-
-    background-color: rgba(126, 126, 126, 0.212);
-    backdrop-filter: saturate(180%) blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.411);
-
-    margin-top: -350px;
-  }
-}
-
-@media (max-width: 700px) {
-  .range {
-    z-index: 1;
-    margin-top: -320px;
-  }
-
-  .smash {
-    z-index: 1;
-    padding-top: 110px;
-  }
-  main {
-    background-image: url("../images/badge.png");
-    width: 19rem;
-    height: 29rem;
-    border-radius: 1rem;
-
-    transform-style: preserve-3d;
-    transform: translateZ(0);
-
-    background-color: rgba(126, 126, 126, 0.212);
-    backdrop-filter: saturate(180%) blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.411);
-
-    margin-top: -350px;
+    padding-top: 0px;
   }
 }
 
